@@ -48,7 +48,7 @@ function alterListItem(
 }
 
 enum LazyListSymbol {
-  open = "[ ]",
+  open = "[_]",
   done = "[x]",
   none = "",
 }
