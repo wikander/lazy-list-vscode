@@ -49,7 +49,22 @@
         "key": "ctrl+l ctrl+k",
         "mac": "cmd+l cmd+k"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Lazy List",
+      "properties": {
+        "lazyList.commentPadding": {
+          "type": "number",
+          "default": 1,
+          "description": "Padding used between a lazy list item and a comment symbol."
+        },
+        "lazyList.listItemPadding": {
+          "type": "number",
+          "default": 1,
+          "description": "Padding used to the right of a lazy list item."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
